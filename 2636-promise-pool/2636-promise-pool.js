@@ -4,24 +4,32 @@
  * @return {Function}
  */
 var promisePool = async function (functions, n) {
-  let i = 0;
+  return new Promise((resolve) => {
+    // inProgress :to keep track of promise
+    // index: index of current functions in array
+    let inProgress = 0,
+      index = 0;
+    function helper() {
+      // base case
+      if (index >= functions.length) {
+        // if all promises are resolved
+        if (inProgress === 0) {
+          resolve();
+          return;
+        }
+      }
 
-  //   This function executes all functions in functions array
-  //   and return promises pending or resolved
-  async function next() {
-    if (i === functions.length) {
-      return;
+      while (index < functions.length && inProgress < n) {
+        inProgress++; // increment because function at current index is executing and promise is pending
+        functions[index++]().then(() => {
+          // decremented because promise is resolved
+          inProgress--;
+          helper();
+        });
+      }
     }
-    await functions[i++]();
-    await next();
-  }
-
-  const nPromises = Array(n).fill(0).map(next);
-
-  
-
-  //   nPromises array to Promise.all() which will wait till all promises are resolved
-  await Promise.all(nPromises);
+    helper();
+  });
 };
 /**
  * const sleep = (t) => new Promise(res => setTimeout(res, t));
