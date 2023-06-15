@@ -1,7 +1,3 @@
-/**
- * @param {any} object
- * @return {string}
- */
 var jsonStringify = function (object) {
   if (object === null || object === undefined) {
     return String(object);
