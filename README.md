@@ -5,7 +5,7 @@ The challenge started on May 5, LeetCode selected one JavaScript problem to tack
 ## Problems Solved
 
 | Day | Topic |    Problem    | Solution | Difficulty |
-|:----:| :----| :---------------- | :------: | :------: |
+|:----:| :----| :---------------- | :------: | :------ |
 | 1   | 	`Closure`| [Create Hello World Function](2809-create-hello-world-function)        |   [Solution](2809-create-hello-world-function/2809-create-hello-world-function.js)   | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> |
 | 2 | 	`Closure` | [Counter](2732-counter) | [Solution](2732-counter/2732-counter.js) |<img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> |
 | 3 | 	`Closure` | [Counter II](2789-counter-ii) | [Solution](2789-counter-ii/2789-counter-ii.js) |<img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> |
