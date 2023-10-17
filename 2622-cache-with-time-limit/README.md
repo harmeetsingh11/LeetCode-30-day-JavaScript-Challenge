@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/cache-with-time-limit/">2622. Cache With Time Limit</a></h2><h3>Medium</h3><hr><div><p>Write a class that allows getting and setting&nbsp;key-value pairs, however a&nbsp;<strong>time until expiration</strong>&nbsp;is associated with each key.</p>
+<h2><a href="https://leetcode.com/problems/cache-with-time-limit/">2622. Cache With Time Limit</a></h2><img src="https://img.shields.io/badge/Medium-FECC00" alt="Medium" /><hr><div><p>Write a class that allows getting and setting&nbsp;key-value pairs, however a&nbsp;<strong>time until expiration</strong>&nbsp;is associated with each key.</p>
 
 <p>The class has three public methods:</p>
 
