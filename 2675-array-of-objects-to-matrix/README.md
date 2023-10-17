@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/array-of-objects-to-matrix/">2675. Array of Objects to Matrix</a></h2><h3>Medium</h3><hr><div><p>Write a function that converts an array of objects&nbsp;<code>arr</code> into a matrix <code>m</code>.</p>
+<h2><a href="https://leetcode.com/problems/array-of-objects-to-matrix/">2675. Array of Objects to Matrix</a></h2><img src="https://img.shields.io/badge/Medium-FECC00" alt="Medium" /><hr><div><p>Write a function that converts an array of objects&nbsp;<code>arr</code> into a matrix <code>m</code>.</p>
 
 <p><code>arr</code>&nbsp;is an array of objects or arrays. Each item in the array can be deeply nested with child arrays and child objects. It can also contain numbers, strings, booleans, and&nbsp;null values.</p>
 
