@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/debounce/">2627. Debounce</a></h2><h3>Medium</h3><hr><div><p>Given a function&nbsp;<code>fn</code> and a time in milliseconds&nbsp;<code>t</code>, return&nbsp;a&nbsp;<strong>debounced</strong>&nbsp;version of that function.</p>
+<h2><a href="https://leetcode.com/problems/debounce/">2627. Debounce</a></h2><img src="https://img.shields.io/badge/Medium-FECC00" alt="Medium" /><hr><div><p>Given a function&nbsp;<code>fn</code> and a time in milliseconds&nbsp;<code>t</code>, return&nbsp;a&nbsp;<strong>debounced</strong>&nbsp;version of that function.</p>
 
 <p>A&nbsp;<strong>debounced</strong>&nbsp;function is a function whose execution is delayed by&nbsp;<code>t</code>&nbsp;milliseconds and whose&nbsp;execution is cancelled if it is called again within that window of time. The debounced function should also recieve the passed parameters.</p>
 
