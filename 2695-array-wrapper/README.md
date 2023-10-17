@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/array-wrapper/">2695. Array Wrapper</a></h2><h3>Easy</h3><hr><div><p>Create a class&nbsp;<code>ArrayWrapper</code> that accepts&nbsp;an array of integers in it's constructor. This class should have two features:</p>
+<h2><a href="https://leetcode.com/problems/array-wrapper/">2695. Array Wrapper</a></h2><img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /><hr><div><p>Create a class&nbsp;<code>ArrayWrapper</code> that accepts&nbsp;an array of integers in it's constructor. This class should have two features:</p>
 
 <ul>
 	<li>When two instances of this class are added together with the&nbsp;<code>+</code>&nbsp;operator, the resulting value is the sum of all the elements in&nbsp;both arrays.</li>
