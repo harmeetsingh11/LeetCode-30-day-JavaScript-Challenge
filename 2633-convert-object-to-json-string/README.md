@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/convert-object-to-json-string/">2633. Convert Object to JSON String</a></h2><h3>Medium</h3><hr><div><p>Given an object, return a valid JSON string of that object. You may assume the object only inludes strings, integers, arrays, objects, booleans, and null. The returned string should not include extra spaces. The order of keys should be the same as the order returned by&nbsp;<code>Object.keys()</code>.</p>
+<h2><a href="https://leetcode.com/problems/convert-object-to-json-string/">2633. Convert Object to JSON String</a></h2><img src="https://img.shields.io/badge/Medium-FECC00" alt="Medium" /><hr><div><p>Given an object, return a valid JSON string of that object. You may assume the object only inludes strings, integers, arrays, objects, booleans, and null. The returned string should not include extra spaces. The order of keys should be the same as the order returned by&nbsp;<code>Object.keys()</code>.</p>
 
 <p>Please solve it without using the built-in <code>JSON.stringify</code> method.</p>
 
