@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/nested-array-generator/">2649. Nested Array Generator</a></h2><h3>Medium</h3><hr><div><p>Given a&nbsp;<strong>multi-dimensional array</strong> of integers, return&nbsp;a generator object which&nbsp;yields integers in the same order as&nbsp;<strong>inorder traversal</strong>.</p>
+<h2><a href="https://leetcode.com/problems/nested-array-generator/">2649. Nested Array Generator</a></h2><img src="https://img.shields.io/badge/Medium-FECC00" alt="Medium" /><hr><div><p>Given a&nbsp;<strong>multi-dimensional array</strong> of integers, return&nbsp;a generator object which&nbsp;yields integers in the same order as&nbsp;<strong>inorder traversal</strong>.</p>
 
 <p>A&nbsp;<strong>multi-dimensional array</strong>&nbsp;is a recursive data structure that contains both integers and other&nbsp;<strong>multi-dimensional arrays</strong>.</p>
 
