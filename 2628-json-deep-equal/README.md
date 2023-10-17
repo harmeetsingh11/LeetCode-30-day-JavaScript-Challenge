@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/json-deep-equal/">2628. JSON Deep Equal</a></h2><h3>Medium</h3><hr><div><p>Given two objects <code>o1</code>&nbsp;and <code>o2</code>, check if they are <strong>deeply equal</strong>.</p>
+<h2><a href="https://leetcode.com/problems/json-deep-equal/">2628. JSON Deep Equal</a></h2><img src="https://img.shields.io/badge/Medium-FECC00" alt="Medium" /><hr><div><p>Given two objects <code>o1</code>&nbsp;and <code>o2</code>, check if they are <strong>deeply equal</strong>.</p>
 
 <p>For two objects to be <strong>deeply equal</strong>, they must contain the same keys, and the associated values must also be&nbsp;<strong>deeply equal</strong>. Two objects are also considered&nbsp;<strong>deeply equal</strong>&nbsp;if they pass the&nbsp;<code>===</code>&nbsp;equality check.</p>
 
